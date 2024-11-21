@@ -33,7 +33,7 @@
     --text-body: #C8CDD0;
     --text-heading: #F9F9F9; 
 
-    --font-family-logo: "Leckerli", sans-serif;
+    --font-family-logo: "Leckerli One", sans-serif;
     --logo: 2.5rem/100% var(--font-family-logo);
 
     --font-family-heading: "Baloo 2", sans-serif;
@@ -47,4 +47,21 @@
     --body-semibold-sm: 600 0.875/100% var(--font-family-body);
     --body-xs: 0.75rem/100% var(--font-family-body);
     --body-semibold-xs: 600 0.75rem/100% var(--font-family-body);  
+}
+
+.body-md {
+    font: var(--body-md);
+    color: var(--text-body);
+}
+
+
+
+body {
+    overflow: hidden;
+    background-color: var(--shape-background);
+}
+
+h1 {
+    font: var(--heading-md);
+    color: var(--text-heading);
 }
