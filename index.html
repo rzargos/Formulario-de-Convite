@@ -24,7 +24,7 @@
         <aside>
             <div class="aside-container">
                 <header>
-                    <img src="/assets/Logo.svg" alt="Logo Festivite">
+                    <img src="/assets/Logo.svg" alt="Logo Festivite"><br>
                     <span class="text-logo">Festivite</span>
                     <p class="body-md">Crie um convite digital para o seu evento</p>
                 </header>
@@ -35,14 +35,56 @@
             <div class="main-container">
                 <h1>Crie seu convite</h1>
 
-                <form action="">
+                <form action="" enctype="multipart/form-data">
                     <fieldset class="event-info">
-                        <legend>Sobre o evento</legend>
+
+                        <legend>
+                            <img src="/assets/icons/calendar.svg" alt="ícone de calendário">
+                            Sobre o evento
+                        </legend>
 
                         <div class="input-wrapper">
-                            <label for="">Título</label>
+                            <label for="event-name">Título</label>
                             <input type="text" name="event-name" id="event-name" placeholder="Nome do evento">
                         </div>
+
+                        <div class="flex">
+                            <div class="input-wrapper flex-1">
+                                <label for="event-name">Ínicio</label>
+                                <input type="datetime-local" name="start-date" id="start-date">
+                            </div>
+
+                            <div class="input-wrapper flex-1">
+                                <label for="event-name">Fim</label>
+                                <input type="datetime-local" name="end-date" id="end-date">
+                            </div>
+                        </div>
+
+                        <label for="radio-wrapper">Tipo</label>
+                        <div class="flex">
+                            
+                            <div class="radio-wrapper flex-1" id="radio-wrapper">
+                                       
+                                <div class="radio-inner">
+                                    <div class="radio-image-presential"></div>
+                                    <input type="radio" name="type-shift" value="presential" id="presential">
+                                    <label for="presential">Presencial</label>
+                                </div>
+
+                                <div class="radio-inner">
+                                    <div class="radio-image-online"></div>
+                                    <input type="radio" name="type-shift" value="online" id="online">
+                                    <label for="online">Online</label>
+                                </div>
+                            </div>
+
+                            <div class="input-wrapper flex-1">
+                                <label for="event-name">Local</label>
+                                <input type="text" name="event-local" id="event-local" placeholder="Link ou endereço">
+                            </div>
+                        </div>
+
+
 
                     </fieldset>
                 </form>

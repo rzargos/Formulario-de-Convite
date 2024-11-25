@@ -1,0 +1,28 @@
+@import url(/styles/fields/index.css);
+
+fieldset {
+    border: none;
+    display: grid;
+    gap: 1rem;
+}
+
+legend {
+    display: flex;
+    gap: .75rem;
+
+    font: var(--heading-sm);
+    color: var(--text-heading);
+
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font: var(--body-sm);
+}
+
+.radio-inner > label {
+    font: var(--body-semibold-sm);
+}
+
+                

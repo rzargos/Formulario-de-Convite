@@ -43,10 +43,10 @@
     --font-family-body: "Open Sans" , sans-serif;
     --body-md: 1rem/100% var(--font-family-body);
     --body-semibold-md: 600 1rem/100% var(--font-family-body);
-    --body-sm: 0.875/100% var(--font-family-body);
+    --body-sm: .875rem/100% var(--font-family-body);
     --body-semibold-sm: 600 0.875/100% var(--font-family-body);
-    --body-xs: 0.75rem/100% var(--font-family-body);
-    --body-semibold-xs: 600 0.75rem/100% var(--font-family-body);  
+    --body-xs: .75rem/100% var(--font-family-body);
+    --body-semibold-xs: 600 .75rem/100% var(--font-family-body);  
 }
 
 .body-md {
@@ -54,14 +54,29 @@
     color: var(--text-body);
 }
 
-
-
 body {
     overflow: hidden;
     background-color: var(--shape-background);
+    font: var(--body-md);
+    color: var(--text-body);
 }
 
 h1 {
     font: var(--heading-md);
     color: var(--text-heading);
+    margin-bottom: 2.5rem;
+    margin-top: 5rem;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
 }

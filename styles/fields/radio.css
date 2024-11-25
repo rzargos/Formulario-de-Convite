@@ -1,0 +1,86 @@
+.radio-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .25rem;
+
+    border: 2px solid transparent;
+    outline: 1px solid var(--input-stroke);
+    border-radius: .5rem;
+    background-color: var(--input-base);
+
+    width: 17rem;
+    height: 3rem;
+}
+
+.radio-inner {
+    padding: .75rem;
+    display: flex;
+
+    border-radius: .25rem;
+
+    position: relative;
+
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font: var(--body-sm);
+
+    & .radio-image-presential {
+        background-image: url(/assets/icons/building-unchecked.svg);
+
+        width: 1rem;
+        height: 1rem;
+
+        top: .8rem;
+        left: .8rem;
+    }
+
+    & .radio-image-online {
+        background-image: url(/assets/icons/video-unchecked.svg);
+
+        width: 1rem;
+        height: 1rem;
+
+        top: .8rem;
+        left: .8rem;
+    }
+
+    & input,
+    & input:focus,
+    & input:hover {
+        all: unset;
+        position: absolute;
+        inset: 0;
+    }
+
+    &:hover {
+        border: 2px solid transparent;
+        outline: 1px solid var(--text-heading);
+    }
+
+    &:has(:checked) {
+        background-color: var(--shape-body);
+        font: var(--body-semibold-sm);
+        color: var(--text-heading);
+
+        & .radio-image-presential {
+            background-image: url(/assets/icons/building-checked.svg);
+
+            width: 1rem;
+            height: 1rem;
+
+            top: .8rem;
+            left: .8rem;
+        }
+
+        & .radio-image-online {
+            background-image: url(/assets/icons/video-checked.svg);
+    
+            width: 1rem;
+            height: 1rem;
+    
+            top: .8rem;
+            left: .8rem;
+        }
+    }
+}
