@@ -73,6 +73,11 @@ h1 {
     gap: 1rem;
 }
 
+.flex-gap {
+    display: flex;
+    gap: 1rem;
+}
+
 .flex-1 {
     flex: 1;
 }

@@ -1,7 +1,9 @@
 input,
-select {
+select,
+textarea {
     appearance: none;
     width: 100%;
+    height: 3rem;
     border-radius: .5rem;
     background-color: var(--input-base);
 

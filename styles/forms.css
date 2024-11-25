@@ -21,8 +21,8 @@ label {
     font: var(--body-sm);
 }
 
-.radio-inner > label {
-    font: var(--body-semibold-sm);
+.label-radio-wrapper {
+    font: var(--body-sm);
 }
 
                 
