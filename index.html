@@ -35,7 +35,7 @@
             <div class="main-container">
                 <h1>Crie seu convite</h1>
 
-                <form action="" enctype="multipart/form-data">
+                <form action="get" enctype="multipart/form-data">
                     <fieldset class="event-info">
 
                         <legend>
@@ -85,8 +85,88 @@
 
                         <div class="textarea-wrapper">
                             <label for="event-description">Descrição</label>
-                            <textarea name="event-description" id="event-description" placeholder="Escreva sobre os detalhes do evento">
+                            <textarea name="event-description" id="event-description"
+                                placeholder="Escreva sobre os detalhes do evento"></textarea>
                         </div>
+                    </fieldset>
+
+                    <fieldset class="customization">
+                        <legend>
+                            <img src="/assets/icons/paintbrush-vertical.svg" alt="ícone de pincel">Personalização
+                        </legend>
+
+                        <div class="flex">
+                            <label for="radio-color-wrapper">Cor principal
+
+                                <div class="radio-color-wrapper" id="radio-color-wrapper">
+
+                                    <div class="radio-color-inner">
+                                        <div class="radio-image-color-1"></div>
+                                        <input type="radio" name="principal-color" value="brand-light">
+                                    </div> 
+
+                                    <div class="radio-color-inner">
+                                        <div class="radio-image-color-2"></div>
+                                        <input type="radio" name="principal-color" value="brand-light">
+                                    </div>
+
+                                    <div class="radio-color-inner">
+                                        <div class="radio-image-color-3"></div>
+                                        <input type="radio" name="principal-color" value="color-purple">
+                                    </div>
+
+                                    <div class="radio-color-inner">
+                                        <div class="radio-image-color-4"></div>
+                                        <input type="radio" name="principal-color" value="color-fuschia">
+                                    </div>
+
+                                    <div class="radio-color-inner">
+                                        <div class="radio-image-color-5"></div>
+                                        <input type="radio" name="principal-color" value="color-pink">
+                                    </div>
+
+                                    <div class="radio-color-inner">
+                                        <div class="radio-image-color-6"></div>
+                                        <input type="radio" name="principal-color" value="color-danger">
+                                    </div>
+
+                                    <div class="radio-color-inner">
+                                        <div class="radio-image-color-7"></div>
+                                        <input type="radio" name="principal-color" value="color-orange">
+                                    </div>
+
+                                    <div class="radio-color-inner">
+                                        <div class="radio-image-color-8"></div>
+                                        <input type="radio" name="principal-color" value="color-yellow">
+                                    </div>
+
+                                    <div class="radio-color-inner">
+                                        <div class="radio-image-color-9"></div>
+                                        <input type="radio" name="principal-color" value="color-lime">
+                                    </div>
+
+                                    <div class="radio-color-inner">
+                                        <div class="radio-image-color-10"></div>
+                                        <input type="radio" name="principal-color" value="color-green">
+                                    </div>
+
+                                    <div class="radio-color-inner">
+                                        <div class="radio-image-color-11"></div>
+                                        <input type="radio" name="principal-color" value="color-cyan">
+                                    </div>
+
+                                </div>
+                            </label>
+                        </div>
+
+
+
+
+
+
+
+
+
                     </fieldset>
 
                 </form>

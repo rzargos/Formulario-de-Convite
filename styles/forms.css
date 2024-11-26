@@ -15,6 +15,7 @@ legend {
 
     align-items: center;
     margin-bottom: 1.5rem;
+    margin-top: 3rem;
 }
 
 label {
@@ -23,6 +24,10 @@ label {
 
 .label-radio-wrapper {
     font: var(--body-sm);
+}
+
+.customization > legend {
+    padding-top: 3rem;
 }
 
                 

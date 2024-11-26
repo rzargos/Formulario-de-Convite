@@ -30,3 +30,12 @@ input[type="datetime-local"] {
         opacity: 0;
     }
 }
+
+textarea {
+    width: 35rem;
+    height: 8.5rem;
+
+    padding: 1rem;
+
+    resize: none;
+}
