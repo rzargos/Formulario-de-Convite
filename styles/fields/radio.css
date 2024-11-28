@@ -302,6 +302,7 @@
     height: 20.3125rem;
 
     margin-top: 1rem;
+    margin-bottom: 1.75rem;
 }
 
 .radio-event-theme-inner {
@@ -347,3 +348,4 @@
         border: 2px solid var(--brand-light);
     }
 }
+

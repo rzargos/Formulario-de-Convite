@@ -1,0 +1,91 @@
+input[type="checkbox"] {
+    all: unset;
+    /* Reseta todos os estilos herdados */
+}
+
+.toggle {
+    /* border: 2px solid transparent; */
+    outline: 1px solid var(--input-stroke);
+    width: 4rem;
+    /* Largura do switch */
+    height: 2rem;
+    /* Altura do switch */
+    background-color: var(--input-base);
+    /* Cor de fundo */
+    border-radius: 20px;
+    /* Bordas arredondadas */
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    right: 1rem;
+}
+
+.toggle-switch {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.toggle::before {
+    content: "";
+    width: 1.5rem;
+    /* Tamanho da bolinha */
+    height: 1.5rem;
+    background-color: var(--input-stroke);
+    /* Cor da bolinha */
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    /* Centraliza verticalmente */
+    left: 2px;
+    /* Alinha à esquerda inicialmente */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+input[type="checkbox"]:checked+.toggle {
+    background-color: var(--brand-light);
+    /* Cor de fundo ao ativar */
+}
+
+input[type="checkbox"]:checked+.toggle::before {
+    transform: translateX(35px);
+    /* Move a bolinha para a direita */
+    background-color: var(--text-heading);
+    /* Cor da bolinha ao ativar */
+    text-transform: "";
+}
+
+/* Texto dinâmico para o tema */
+.theme-text::after {
+    content: attr(data-dark);
+    /* Pega o valor do atributo data-dark */
+    transition: content 0.3s ease;
+}
+
+input[type="checkbox"]:checked~.theme-text::after {
+    content: attr(data-light);
+    /* Pega o valor do atributo data-light */
+}
+
+.theme-switch {
+    margin-top: 1rem;
+    margin-left: 0;
+}
+
+.theme-text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-heading);
+    width: .5rem;
+}
+
+.toggle-container {
+    margin-bottom: 3rem;
+    justify-content: flex-start;
+    padding: 0;
+}

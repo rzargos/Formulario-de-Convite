@@ -1,0 +1,61 @@
+/* Container geral */
+.file-upload-container {
+    display: flex;
+    align-items: center;
+    /* Alinha verticalmente os itens */
+    gap: 1rem;
+    /* Espaçamento entre o botão e o texto */
+    margin-top: 1rem;
+
+    & span {
+        color: var(--text-heading);
+    }
+}
+
+/* Input file invisível */
+#file-upload {
+    display: none;
+    /* Esconde o input real */
+}
+
+/* Botão personalizado */
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--input-stroke);
+    border-radius: .5rem;
+    color: var(--text-heading);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    & span {
+        font: var(--body-semibold-sm);
+        color: var(--text-heading);
+    }
+}
+
+.custom-file-upload:hover {
+    background-color: var(--shape-hover);
+}
+
+/* Ícone e texto do botão */
+.custom-file-upload span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    /* Espaçamento entre o ícone e o texto */
+}
+
+/* Texto do arquivo */
+.file-name {
+    font: var(--body-md);
+    color: var(--input-placeholder);
+}
+
+.label-file-upload {
+    margin-bottom: 1rem;
+    margin-left: 4.5rem;
+}
+
