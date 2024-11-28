@@ -246,19 +246,19 @@
                                 </div>
                             </label>
 
-                                <div class="label-file-upload">
-                                    <label for="file-upload">Foto de capa
-                                        <div class="file-upload-container">
-                                            <label for="file-upload" class="custom-file-upload">
-                                                <span><img src="/assets/icons/upload.svg"
-                                                        alt="ícone de upload">Selecionar</span>
-                                            </label>
-                                            <input type="file" id="file-upload" />
-                                            <span class="file-name">Nenhum arquivo selecionado</span>
-                                        </div>
-                                    </label>
-                                </div>
-                            
+                            <div class="label-file-upload">
+                                <label for="file-upload">Foto de capa
+                                    <div class="file-upload-container">
+                                        <label for="file-upload" class="custom-file-upload">
+                                            <span><img src="/assets/icons/upload.svg"
+                                                    alt="ícone de upload">Selecionar</span>
+                                        </label>
+                                        <input type="file" id="file-upload" />
+                                        <span class="file-name">Nenhum arquivo selecionado</span>
+                                    </div>
+                                </label>
+                            </div>
+
 
                         </div>
 
@@ -272,6 +272,35 @@
 
                     </fieldset>
 
+                    <fieldset class="contact-info">
+
+                        <legend>
+                            <img src="/assets/icons/contact.svg" alt="ícone de contato">Dados para contato
+                        </legend>
+
+                        <div class="input-wrapper">
+                            <label for="name">Nome</label>
+                            <input type="text" name="name" id="name" placeholder="Nome completo" required>
+                            <div class="error">
+                                <img src="/assets/icons/circle-alert.svg" alt="ícone de alerta vermelho">
+                                <span>Campo obrigatório</span>
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <div class="input-wrapper flex-1">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+                            </div>
+
+                            <div class="input-wrapper flex-1">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" name="phone" id="phone" placeholder="(99) 99999-9999">
+                            </div>
+                        </div>
+
+
+                    </fieldset>
                 </form>
             </div>
         </main>

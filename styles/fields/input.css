@@ -39,3 +39,20 @@ textarea {
 
     resize: none;
 }
+
+input {
+    &[required] +.error {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+
+        font: var(--body-xs);
+        color: var(--feedback-danger);
+
+        margin-top: .5rem;
+    }
+
+    &:not(:focus):valid + .error {
+        display: none;
+    }
+}
