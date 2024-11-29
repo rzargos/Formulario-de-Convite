@@ -30,7 +30,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 
-    & span {
+     span {
         font: var(--body-semibold-sm);
         color: var(--text-heading);
     }
@@ -49,9 +49,10 @@
 }
 
 /* Texto do arquivo */
-.file-name {
+#file-name {
     font: var(--body-md);
     color: var(--input-placeholder);
+    /* border: 1px solid red; */
 }
 
 .label-file-upload {

@@ -36,6 +36,7 @@
                 <h1>Crie seu convite</h1>
 
                 <form action="get" enctype="multipart/form-data">
+
                     <fieldset class="event-info">
 
                         <legend>
@@ -61,8 +62,8 @@
                         </div>
 
                         <div class="flex-gap">
-                            <label class="label-radio-wrapper" for="radio-wrapper">Tipo
-                                <div class="radio-wrapper flex-1" id="radio-wrapper">
+                            <label class="label-radio-wrapper" for="type-shift">Tipo
+                                <div class="radio-wrapper flex-1" id="type-shift">
                                     <div class="radio-inner">
                                         <div class="radio-image-presential"></div>
                                         <input type="radio" name="type-shift" value="presential" id="presential">
@@ -254,21 +255,11 @@
                                                     alt="ícone de upload">Selecionar</span>
                                         </label>
                                         <input type="file" id="file-upload" />
-                                        <span class="file-name">Nenhum arquivo selecionado</span>
+                                        <span id="file-name">Nenhum arquivo selecionado</span>
                                     </div>
                                 </label>
                             </div>
-
-
                         </div>
-
-
-
-
-
-
-
-
 
                     </fieldset>
 
@@ -279,8 +270,8 @@
                         </legend>
 
                         <div class="input-wrapper">
-                            <label for="name">Nome</label>
-                            <input type="text" name="name" id="name" placeholder="Nome completo" required>
+                            <label for="complete-name">Nome</label>
+                            <input type="text" name="name" id="complete-name" placeholder="Nome completo" required>
                             <div class="error">
                                 <img src="/assets/icons/circle-alert.svg" alt="ícone de alerta vermelho">
                                 <span>Campo obrigatório</span>
@@ -301,6 +292,35 @@
 
 
                     </fieldset>
+
+                    <footer>
+
+                        <div class="terms-wrapper input-wrapper checkbox-wrapper">
+                            <div class="checkbox-image"></div>
+                            <input type="checkbox" name="terms" id="terms" required>
+                            <label for="terms">Li e concordo com os <span class="fake-hash">Termos e Condições</span> e
+                                com a <span class="fake-hash">Política de Privacidade</span></label>
+                        </div>
+
+                        <div class="terms-wrapper input-wrapper checkbox-wrapper">
+                            <div class="checkbox-image"></div>
+                            <input type="checkbox" name="agree" id="agree">
+                            <label for="agree">Aceito receber atualizações e promoções por e-mail</label>
+                        </div>
+
+                        <div class="terms-wrapper input-wrapper checkbox-wrapper">
+                            <div class="checkbox-image"></div>
+                            <input type="checkbox" name="agreed" id="agreed">
+                            <label for="agreed">Aceito receber atualizações e promoções por SMS</label>
+                        </div>
+
+                        <button type="submit"><img src="/assets/icons/ticket.svg" alt="ícone de ingresso">Gerar
+                            convite</button>
+                        <div class="empty">-</div>
+
+                    </footer>
+
+
                 </form>
             </div>
         </main>
