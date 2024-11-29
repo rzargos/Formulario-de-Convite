@@ -323,11 +323,10 @@
         padding-top: .5rem;
     }
 
-    & input,
-    & input:focus,
-    & input:hover {
-        position: absolute;
-        inset: 0;
+     input,
+     input:focus,
+     input:hover {
+        position: fixed;
     }
 
     & img {

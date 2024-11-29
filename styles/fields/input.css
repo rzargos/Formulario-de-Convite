@@ -15,6 +15,10 @@ textarea {
 
     color: var(--input-placeholder);
     font: var(--body-md);
+
+    &:focus {
+        outline: 2px solid var(--brand-light);
+    }
 }
 
 ::placeholder {
@@ -56,7 +60,7 @@ input {
         border: 2px solid transparent;
         outline: 1px solid var(--feedback-danger);
 
-        &:not:valid+.error {
+        &:valid {
             border: 2px solid transparent;
             outline: 1px solid var(--input-stroke);
         }

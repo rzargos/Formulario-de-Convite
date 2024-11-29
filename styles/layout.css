@@ -41,7 +41,7 @@ aside {
 
 
 main {
-    overflow: auto;
+    overflow-x: hidden;
     border-radius: 0.75rem;
     background-color: var(--shape-body);
     margin: 0 1.25rem 0 1.25rem;
