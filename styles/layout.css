@@ -9,7 +9,7 @@
 }
 
 aside {
-    background-image: url(/assets/Background.png);
+    background-image: url(../assets/Background.png);
     background-size: cover;
 
     padding: 2rem;
