@@ -29,14 +29,14 @@
     font: var(--body-sm);
 
     & .radio-image-presential {
-        background-image: url(/assets/icons/building-unchecked.svg);
+        background-image: url(../../assets/icons/building-unchecked.svg);
 
         width: 1rem;
         height: 1rem;
     }
 
     & .radio-image-online {
-        background-image: url(/assets/icons/video-unchecked.svg);
+        background-image: url(../../assets/icons/video-unchecked.svg);
 
         width: 1rem;
         height: 1rem;
@@ -61,14 +61,14 @@
         color: var(--text-heading);
 
         & .radio-image-presential {
-            background-image: url(/assets/icons/building-checked.svg);
+            background-image: url(../../assets/icons/building-checked.svg);
 
             width: 1rem;
             height: 1rem;
         }
 
         & .radio-image-online {
-            background-image: url(/assets/icons/video-checked.svg);
+            background-image: url(../../assets/icons/video-checked.svg);
 
             width: 1rem;
             height: 1rem;
@@ -110,7 +110,7 @@
     {
 
     & .radio-image-color-1 {
-        background-image: url(/assets/icons/selects/default/select-default-brand-light.svg);
+        background-image: url(../../assets/icons/selects/default/select-default-brand-light.svg);
 
         width: 100%;
         height: 100%;
@@ -121,7 +121,7 @@
 
     &:has(:checked) {
         & .radio-image-color-1 {
-            background-image: url(/assets/icons/selects/clicked/select-clicked-brand-light.svg);
+            background-image: url(../../assets/icons/selects/clicked/select-clicked-brand-light.svg);
 
             width: 100%;
             height: 100%;
@@ -132,7 +132,7 @@
     }
 
     & .radio-image-color-2 {
-        background-image: url(/assets/icons/selects/default/select-default-navy.svg);
+        background-image: url(../../assets/icons/selects/default/select-default-navy.svg);
 
         width: 100%;
         height: 100%;
@@ -143,12 +143,12 @@
 
     &:has(:checked) {
         & .radio-image-color-2 {
-            background-image: url(/assets/icons/selects/clicked/select-clicked-navy.svg);
+            background-image: url(../../assets/icons/selects/clicked/select-clicked-navy.svg);
         }
     }
 
     & .radio-image-color-3 {
-        background-image: url(/assets/icons/selects/default/select-default-purple.svg);
+        background-image: url(../../assets/icons/selects/default/select-default-purple.svg);
 
         width: 100%;
         height: 100%;
@@ -159,12 +159,12 @@
 
     &:has(:checked) {
         & .radio-image-color-3 {
-            background-image: url(/assets/icons/selects/clicked/select-clicked-purple.svg);
+            background-image: url(../../assets/icons/selects/clicked/select-clicked-purple.svg);
         }
     }
 
     & .radio-image-color-4 {
-        background-image: url(/assets/icons/selects/default/select-default-fuschia.svg);
+        background-image: url(../../assets/icons/selects/default/select-default-fuschia.svg);
 
         width: 100%;
         height: 100%;
@@ -175,12 +175,12 @@
 
     &:has(:checked) {
         & .radio-image-color-4 {
-            background-image: url(/assets/icons/selects/clicked/select-clicked-fuschia.svg);
+            background-image: url(../../assets/icons/selects/clicked/select-clicked-fuschia.svg);
         }
     }
 
     & .radio-image-color-5 {
-        background-image: url(/assets/icons/selects/default/select-default-pink.svg);
+        background-image: url(../../assets/icons/selects/default/select-default-pink.svg);
 
         width: 100%;
         height: 100%;
@@ -191,12 +191,12 @@
 
     &:has(:checked) {
         & .radio-image-color-5 {
-            background-image: url(/assets/icons/selects/clicked/select-clicked-pink.svg);
+            background-image: url(../../assets/icons/selects/clicked/select-clicked-pink.svg);
         }
     }
 
     & .radio-image-color-6 {
-        background-image: url(/assets/icons/selects/default/select-default-danger.svg);
+        background-image: url(../../assets/icons/selects/default/select-default-danger.svg);
 
         width: 100%;
         height: 100%;
@@ -207,12 +207,12 @@
 
     &:has(:checked) {
         & .radio-image-color-6 {
-            background-image: url(/assets/icons/selects/clicked/select-clicked-danger.svg);
+            background-image: url(../../assets/icons/selects/clicked/select-clicked-danger.svg);
         }
     }
 
     & .radio-image-color-7 {
-        background-image: url(/assets/icons/selects/default/select-default-orange.svg);
+        background-image: url(../../assets/icons/selects/default/select-default-orange.svg);
 
         width: 100%;
         height: 100%;
@@ -223,12 +223,12 @@
 
     &:has(:checked) {
         & .radio-image-color-7 {
-            background-image: url(/assets/icons/selects/clicked/select-clicked-orange.svg);
+            background-image: url(../../assets/icons/selects/clicked/select-clicked-orange.svg);
         }
     }
 
     & .radio-image-color-8 {
-        background-image: url(/assets/icons/selects/default/select-default-yellow.svg);
+        background-image: url(../../assets/icons/selects/default/select-default-yellow.svg);
 
         width: 100%;
         height: 100%;
@@ -239,12 +239,12 @@
 
     &:has(:checked) {
         & .radio-image-color-8 {
-            background-image: url(/assets/icons/selects/clicked/select-clicked-yellow.svg);
+            background-image: url(../../assets/icons/selects/clicked/select-clicked-yellow.svg);
         }
     }
 
     & .radio-image-color-9 {
-        background-image: url(/assets/icons/selects/default/select-default-lime.svg);
+        background-image: url(../../assets/icons/selects/default/select-default-lime.svg);
 
         width: 100%;
         height: 100%;
@@ -255,12 +255,12 @@
 
     &:has(:checked) {
         & .radio-image-color-9 {
-            background-image: url(/assets/icons/selects/clicked/select-clicked-lime.svg);
+            background-image: url(../../assets/icons/selects/clicked/select-clicked-lime.svg);
         }
     }
 
     & .radio-image-color-10 {
-        background-image: url(/assets/icons/selects/default/select-default-green.svg);
+        background-image: url(../../assets/icons/selects/default/select-default-green.svg);
 
         width: 100%;
         height: 100%;
@@ -271,12 +271,12 @@
 
     &:has(:checked) {
         & .radio-image-color-10 {
-            background-image: url(/assets/icons/selects/clicked/select-clicked-green.svg);
+            background-image: url(../../assets/icons/selects/clicked/select-clicked-green.svg);
         }
     }
 
     & .radio-image-color-11 {
-        background-image: url(/assets/icons/selects/default/select-default-cyan.svg);
+        background-image: url(../../assets/icons/selects/default/select-default-cyan.svg);
 
         width: 100%;
         height: 100%;
@@ -287,7 +287,7 @@
 
     &:has(:checked) {
         & .radio-image-color-11 {
-            background-image: url(/assets/icons/selects/clicked/select-clicked-cyan.svg);
+            background-image: url(../../assets/icons/selects/clicked/select-clicked-cyan.svg);
         }
     }
 }
